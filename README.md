@@ -29,3 +29,8 @@ server {
     deny all;
   }
 }
+```
+
+# Preview
+<p>Note: CSS file not included</p>
+<img src="preview1.png">
