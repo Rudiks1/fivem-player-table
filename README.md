@@ -12,7 +12,7 @@
 # In case of an error
 <ol>
   <li>Check the information you set as the IP&port and as the FiveM CFX code to your server. Make sure there are no unnecessary characters or a typo.</li>
-  <li>If it shows the num of online players and all slot but not the players table, check the IP address and port you set. If it still does not work, most likely you disabled the players.json file to be viewable by the public. Paste the following line in the server.cfg file: "sv_endpointprivacy false" or set it from "true" to "false"!</li>
+  <li>If it shows the num of online players and all slot but not the players table, check the IP address and port you set. If it still does not work, most likely you disabled the players.json file to be reachable by the public. Paste the following line in the server.cfg file: "sv_endpointprivacy false" or set it from "true" to "false"!</li>
   <b>Warning! This will make players.json, dynamic.json and info.json file readable by the public.</b>
   <li>You can limit this by setting up a reverse proxy to make the file only available to your own webserver.</li>
 </ol>
