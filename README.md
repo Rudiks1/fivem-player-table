@@ -29,4 +29,3 @@ server {
     deny all;
   }
 }
-
