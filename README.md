@@ -17,6 +17,7 @@
   <li>You can limit this by setting up a reverse proxy to make the file only available to your own webserver.</li>
 </ol>
 <b>Example code for Ngix</b>
+
 ```
 server {
   listen 80;
@@ -28,4 +29,4 @@ server {
     deny all;
   }
 }
-```
+
